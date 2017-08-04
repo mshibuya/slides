@@ -1,0 +1,77 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    atk (3.1.8)
+      glib2 (= 3.1.8)
+    cairo (1.15.9)
+      native-package-installer (>= 1.0.3)
+      pkg-config (>= 1.2.2)
+    cairo-gobject (3.1.8)
+      cairo
+      glib2 (= 3.1.8)
+    coderay (1.1.1)
+    faraday (0.12.2)
+      multipart-post (>= 1.2, < 3)
+    gdk_pixbuf2 (3.1.8)
+      gio2 (= 3.1.8)
+    gettext (3.2.3)
+      locale (>= 2.0.5)
+      text (>= 1.3.0)
+    gio2 (3.1.8)
+      glib2 (= 3.1.8)
+      gobject-introspection (= 3.1.8)
+    glib2 (3.1.8)
+      native-package-installer (>= 1.0.3)
+      pkg-config (>= 1.2.2)
+    gobject-introspection (3.1.8)
+      glib2 (= 3.1.8)
+    gtk2 (3.1.8)
+      atk (= 3.1.8)
+      gdk_pixbuf2 (= 3.1.8)
+      pango (= 3.1.8)
+    hikidoc (0.1.0)
+    kramdown (1.14.0)
+    locale (2.1.2)
+    mini_portile2 (2.2.0)
+    multipart-post (2.0.0)
+    native-package-installer (1.0.4)
+    nokogiri (1.8.0)
+      mini_portile2 (~> 2.2.0)
+    pango (3.1.8)
+      cairo (>= 1.14.0)
+      cairo-gobject (= 3.1.8)
+      gobject-introspection (= 3.1.8)
+    pkg-config (1.2.3)
+    poppler (3.1.8)
+      cairo (>= 1.14.0)
+      gdk_pixbuf2 (= 3.1.8)
+    rabbit (2.2.0)
+      coderay (>= 1.0.0)
+      faraday
+      gdk_pixbuf2 (>= 3.0.9)
+      gettext (>= 3.0.1)
+      gio2
+      gtk2
+      hikidoc
+      kramdown
+      nokogiri
+      poppler
+      rdtool
+      rsvg2
+      rttool
+    rdtool (0.6.38)
+    rsvg2 (3.1.8)
+      cairo (>= 1.12.8)
+      cairo-gobject (= 3.1.8)
+      gdk_pixbuf2 (= 3.1.8)
+    rttool (1.0.3.0)
+    text (1.3.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rabbit
+
+BUNDLED WITH
+   1.14.6
